@@ -2,9 +2,9 @@
 try{
 
     @DEFINE('HOST','localhost');
-    @DEFINE('BD','new_agenda');
-    @DEFINE('USER','root');
-    @DEFINE('PASS','bdjmf');
+    @DEFINE('BD','');
+    @DEFINE('USER','');
+    @DEFINE('PASS','');
 
     $conect = new PDO('mysql:host='.HOST.';dbname='.BD,USER,PASS);
     $conect -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
